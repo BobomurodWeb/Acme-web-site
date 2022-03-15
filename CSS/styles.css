@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1100;
+    height: 100%;
+    /* text-align: center; */
+    font-family: 'Fredoka', sans-serif;
+    /* font-size: 16px; */
+    /* line-height: 1.5; */
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #222;
+}
+html{
+    width: 100%;
+}
+/* SITE HERO SECTION STYLES */
+.site-hero:not(last-child) {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/manzarali-uylar-daryolar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-shadow: 0 0 9px #222;
+}
+.site-hero:active{
+    background-image: url("../images/Daraxt-manzarasi.jpg");
+}
+.site-hero_title {
+    font-family: 'Fredoka', sans-serif;
+    padding-top: 32px;
+    margin-bottom: 15px;
+    font-size:  50px;
+}
+.site-hero_title:hover{
+    color: red;
+    cursor: pointer;
+}
+.site-hero_text {
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 22px;
+}
+.site-hero_link{
+    
+}
+.site-hero_link{background-image: linear-gradient(to right, #003973 0%, #E5E5BE 51% , #003973  100%)}
+
+.site-hero_link{
+    padding: 16px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0  10px #fff;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.site-hero_link:hover{
+    background-position: right center;
+    color: #fff;
+}
+/*  SITE APPLICATION SECTION STYLES */
+.application-section {
+    background-color: #FFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.application-section_title {
+    font-family: 'Fredoka', sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.application-section_title:hover{
+    color: red;
+    box-shadow: 0 0 10px #222
+}
+.application-section_text-wrapper {
+    font-family: 'Hubballi', cursive;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.application-section_text {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+/* CARDS SECTION SYTLES */
+.cards-section {
+    background-color: #123456;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.cards-section_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.cards-section_list-iteam {
+    width: 300px;
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+.cards-section_list-iteam:not(:last-child){
+    margin-right: 40px;
+}
+.carsd-section_list-img {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+.cards-section_iteam-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.cards-section_iteam-text {
+    font-family: 'Hubballi', cursive;
+    font-size:20px;
+}
+
+/* NEEDS SECTION STYLES */
+.needs-section {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size:cover;
+    color:#000;
+    padding: 70px 30px;
+    text-align: center;
+}
+.needs-section:hover{
+    background-image: url("../images/daryolar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    color:#fff;
+
+}
+
+.needs-section_title {
+    font-size: 40px;
+    margin-bottom: 50px;
+    line-height: 1px;
+}
+.needs-section_text {
+    font-family: 'Hubballi', cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+/* SECTION FOOTER STYLES */
+.footer-section {
+    background-color:rgb(41, 39, 39);
+}
+.footer-section_list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: #fff;
+    padding: 50px;
+}
+.footer-section_list-iteam {
+    text-align: center;
+}
+.footer-section_list-iteam:hover{
+    color:red;
+}
+.footer-section_iteam-title {
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+
+}
+.footer-section_iteam-text {
+    font-family: 'Hubballi', cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+    width: 100%;
+    line-height:1;
+    max-width: 750px;
+}
+.footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.footer-section-title-1 {
+    color:orangered;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.footer-section-title-1:hover{
+    
+}
+.footer-section-title-1:not(:last-child){
+    margin-right: 550px;
+}
+.one{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+.one-1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: orangered;
+}
